@@ -207,7 +207,6 @@ License: GPL v2
 		add_settings_field( 'c3m_hour_string', 'Enter Post Publish Times (use 2 digit hours seperated by commas. ie 11,16,17  will publish at 11am, 4pm and 5pm):', 'c3m_hour_setting', 'post_schedules', 'plugin_main' );
 		add_settings_field( 'c3m_allowed_string', 'Enter how many posts can be published at each time: ', 'c3m_allowed_setting', 'post_schedules', 'plugin_main' );
 		add_settings_field( 'c3m_date_string', 'Enter Publish Dates (use month/day seperated by commas ie: 5/5,5/7 for May 5th and May 7th): ', 'c3m_date_setting', 'post_schedules', 'plugin_main' );
-		add_settings_field( 'c3m_editor', 'click to load an editor', 'c3m_editor_setting', 'post_schedules', 'plugin_main' );
 	}
 
 	function settings_array() {
